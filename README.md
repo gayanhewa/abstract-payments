@@ -46,4 +46,10 @@ A common scenario can be as below :
       }
 
 
+### TODO 
 
+Initial set of clients to integrate.
+
+- Stripe
+- Braintree
+- Balanced Payments
