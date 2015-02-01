@@ -45,10 +45,13 @@ A common scenario can be as below :
       
       }
 
+### Why does this matter ?
+
+The advantage of such an abstrction is quite straight forwards. Assume that we have an application that consumes Stripe payments. Down the line we decide to replace this gateway with something else. This would result in modification of the existing codebase. But with a this approach we can simply swap the implementation to be used by a [DI](http://php-di.org/) container. Not necessarily the one linked , but could be anything.
 
 ### TODO 
-
-Initial set of clients to integrate.
+1. Identify the abstrat layer for payments.
+2. Initial set of clients to integrate.
 
 - Stripe
 - Braintree
